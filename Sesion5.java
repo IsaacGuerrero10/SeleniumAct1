@@ -44,10 +44,6 @@ public class Sesion5 {
 		Thread.sleep(1000);
 		tap.clickOnSamsung();
 		
-		ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
-		System.out.println(driver.getTitle());
-		driver.switchTo().window(tabs2.get(1));
-		System.out.println(driver.getTitle());
 		//tap.selectBuscadorByValue();
 		//String value = tap.selectBuscadorByText("Celulares");
 		//System.out.println(value);
